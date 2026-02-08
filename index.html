@@ -1,99 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How to Contact Your Members of Congress</title>
-  <meta name="description" content="A simple step-by-step guide to finding and contacting your U.S. Senators and House Representative.">
+  <title>راهنمای تماس با نمایندگان کنگره آمریکا</title>
+  <meta name="description" content="راهنمای گام‌به‌گام برای پیدا کردن و تماس با سناتورها و نماینده مجلس نمایندگان آمریکا">
   <style>
+    :root {
+      --iran-green: #239f40;
+      --iran-red: #da0000;
+      --soft-gray: #f5f5f5;
+      --text-dark: #1f2937;
+    }
+
     body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      line-height: 1.6;
+      line-height: 1.8;
       margin: 0;
-      background-color: #f9f9f9;
-      color: #222;
+      background-color: var(--soft-gray);
+      color: var(--text-dark);
     }
+
     header {
-      background-color: #1f2937;
+      background-color: var(--iran-green);
       color: white;
-      padding: 2rem 1rem;
+      padding: 2.2rem 1rem;
       text-align: center;
+      border-bottom: 6px solid var(--iran-red);
     }
+
     main {
       max-width: 800px;
       margin: 0 auto;
       padding: 2rem 1rem;
       background-color: white;
     }
-    h1, h2, h3 {
-      line-height: 1.25;
+
+    h1, h2 {
+      line-height: 1.4;
     }
+
     h2 {
       margin-top: 2.5rem;
-      border-bottom: 2px solid #e5e7eb;
       padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--iran-green);
+      color: var(--iran-green);
     }
+
     p {
       margin: 1rem 0;
     }
+
     a {
-      color: #2563eb;
+      color: var(--iran-red);
       text-decoration: none;
+      font-weight: 500;
+      word-break: break-all;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
+    ul {
+      padding-right: 1.5rem;
+    }
+
     .step {
       margin-bottom: 2rem;
     }
+
     .box {
-      background-color: #f3f4f6;
+      background-color: #ffffff;
       padding: 1rem;
-      border-left: 4px solid #2563eb;
+      border-right: 5px solid var(--iran-red);
       margin: 1rem 0;
+      box-shadow: 0 0 0 1px #e5e7eb;
     }
+
     pre {
       background-color: #111827;
       color: #f9fafb;
       padding: 1rem;
       overflow-x: auto;
-      border-radius: 4px;
+      border-radius: 6px;
       white-space: pre-wrap;
+      direction: ltr;
+      text-align: left;
+      border-left: 5px solid var(--iran-green);
     }
+
     footer {
       text-align: center;
       font-size: 0.9rem;
       color: #6b7280;
       padding: 2rem 1rem;
+      background-color: white;
+      border-top: 3px solid var(--iran-red);
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>How to Contact Your Members of Congress</h1>
-  <p>A simple, step-by-step guide for U.S. constituents</p>
+  <h1>چگونه با نمایندگان کنگره آمریکا تماس بگیریم</h1>
+  <p>راهنمای ساده و مرحله‌به‌مرحله برای شهروندان و ساکنان آمریکا</p>
 </header>
 
 <main>
 
   <p>
-    This page explains how to find and contact your U.S. Senators and House Representative
-    to share your views on issues that matter to you.
+    این صفحه توضیح می‌دهد که چگونه می‌توانید سناتورها و نماینده مجلس نمایندگان
+    حوزه خود را پیدا کرده و با آن‌ها تماس بگیرید تا دیدگاه‌ها و نگرانی‌های خود
+    را مطرح کنید.
   </p>
 
   <div class="step">
-    <h2>Step 1: Find Your Senators and House Representative</h2>
-    <p>
-      Every U.S. resident is represented by:
-    </p>
+    <h2>مرحله ۱: پیدا کردن نمایندگان خود</h2>
+    <p>هر فرد در آمریکا توسط افراد زیر نمایندگی می‌شود:</p>
     <ul>
-      <li>Two U.S. Senators</li>
-      <li>One U.S. House Representative</li>
+      <li>دو سناتور (Senate)</li>
+      <li>یک نماینده مجلس نمایندگان (House)</li>
     </ul>
-    <p>
-      Use the official Congress website to find your elected officials by entering your ZIP code:
-    </p>
+    <p>از وب‌سایت رسمی کنگره استفاده کنید:</p>
     <div class="box">
       <a href="https://www.congress.gov/members/find-your-member" target="_blank" rel="noopener">
         https://www.congress.gov/members/find-your-member
@@ -102,30 +131,20 @@
   </div>
 
   <div class="step">
-    <h2>Step 2: Find Email and Phone Contact Information</h2>
+    <h2>مرحله ۲: پیدا کردن ایمیل و شماره تلفن</h2>
     <p>
-      After locating your Senators and Representative, click on each name.
-      You will be taken to their official profile and website.
-    </p>
-    <p>
-      On their official website, you can usually find:
-    </p>
-    <ul>
-      <li>A contact form or email address</li>
-      <li>Phone numbers for Washington, D.C. and local district offices</li>
-    </ul>
-    <p>
-      You can also use these official directories:
+      روی نام هر نماینده کلیک کنید تا به وب‌سایت رسمی او هدایت شوید.
+      اطلاعات تماس معمولاً شامل ایمیل یا فرم تماس و شماره تلفن دفاتر است.
     </p>
     <div class="box">
       <p>
-        Senate contact list:<br>
+        فهرست سناتورها:<br>
         <a href="https://www.senate.gov/senators/senators-contact.htm" target="_blank" rel="noopener">
           https://www.senate.gov/senators/senators-contact.htm
         </a>
       </p>
       <p>
-        House contact list:<br>
+        فهرست نمایندگان مجلس:<br>
         <a href="https://www.house.gov/representatives/find-your-representative" target="_blank" rel="noopener">
           https://www.house.gov/representatives/find-your-representative
         </a>
@@ -134,12 +153,10 @@
   </div>
 
   <div class="step">
-    <h2>Step 3: Use a Sample Email</h2>
+    <h2>مرحله ۳: نمونه ایمیل</h2>
     <p>
-      Most offices prefer brief, respectful messages. You can copy and customize the example below.
-      Including your ZIP code helps verify that you are a constituent.
+      پیام‌های کوتاه و محترمانه معمولاً بیشترین تأثیر را دارند.
     </p>
-
     <pre>
 Subject: Constituent Concern Regarding [Issue]
 
@@ -147,11 +164,8 @@ Dear Senator/Representative [Last Name],
 
 My name is [Your Name], and I am a constituent from [City, State].
 
-I am writing to express my concern regarding [briefly describe the issue].
-This issue is important to me because [1–2 sentences explaining why].
-
-I respectfully ask that you consider this issue and take action that reflects
-the best interests of your constituents.
+I am writing to express my concern regarding [issue].
+This issue is important to me because [brief explanation].
 
 Thank you for your time and service.
 
@@ -162,12 +176,7 @@ Sincerely,
   </div>
 
   <div class="step">
-    <h2>Step 4: Follow Up (Optional)</h2>
-    <p>
-      Phone calls can also be effective. Staff members typically take brief messages
-      and share them with the representative.
-    </p>
-
+    <h2>مرحله ۴: پیگیری (اختیاری)</h2>
     <pre>
 Hello, my name is [Your Name], and I live in [City, ZIP Code].
 I am calling to express my concern about [issue].
@@ -179,7 +188,7 @@ Thank you for your time.
 
 <footer>
   <p>
-    This website is for informational purposes only and links to official U.S. government resources.
+    این وب‌سایت صرفاً جهت اطلاع‌رسانی است و به منابع رسمی دولت آمریکا لینک می‌دهد.
   </p>
 </footer>
 
